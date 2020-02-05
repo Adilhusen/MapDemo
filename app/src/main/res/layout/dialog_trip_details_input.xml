@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+android:padding="@dimen/_10sdp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatTextView
+android:id="@+id/tvTitle"
+android:padding="@dimen/_5sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:drawableRight="@drawable/ic_close_black_24dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="@string/tv_enter_trip_details" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/bg_border_dark"
+        android:padding="@dimen/_10sdp"
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:hint="@string/et_enter_name"
+        android:inputType="textMultiLine|text" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvStartDestination"
+        android:padding="@dimen/_10sdp"
+        android:textSize="16sp"
+        android:background="@drawable/bg_border_dark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="@string/et_enter_source" />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvEndDestination"
+        android:textSize="16sp"
+        android:padding="@dimen/_10sdp"
+        android:background="@drawable/bg_border_dark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="@string/et_enter_destination" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:padding="@dimen/_10sdp"
+        android:background="@drawable/background"
+        android:layout_width="match_parent"
+        android:id="@+id/tvStartTrip"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+android:drawableLeft="@drawable/ic_flight_takeoff_black_24dp"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:textColor="@android:color/white"
+        android:text="@string/btn_start_trip" />
+
+
+</LinearLayout>

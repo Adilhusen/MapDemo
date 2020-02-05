@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TripDetails</string>
+    <string name="tv_enter_trip_details">Enter Trip Details</string>
+    <string name="et_enter_name">Enter Trip Name</string>
+    <string name="et_enter_source">Select Source</string>
+    <string name="et_enter_destination">Select Destination</string>
+    <string name="btn_start_trip">Start Trip</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="start_date">Start Date</string>
+    <string name="end_date">End Date</string>
+    <string name="launch_activity">Go To App</string>
+    <string name="remove_location_updates">Stop Location </string>
+    <string name="end_trip">End Trip</string>
+    <string name="go_to_map">Go to map</string>
+</resources>
